@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Tela de Login Natalina</title>
+ <link rel="stylesheet" href="./login-style.css">
+  
+</head>
+<body>
+
+    <div class="neblina"></div>
+
+
+
+    <section id="login">
+        <div id="formulario">
+            <h1>Login</h1>
+            <div class="campo">
+                <input type="text" name="usuario" id="usuario" class="inputUser" required>
+                <label for="usuario" class="labelInput">Usuário</label>
+            </div>
+
+            <div class="campo">
+                <input type="password" name="senha" id="senha" class="inputUser" required>
+                <label for="senha" class="labelInput">Senha</label>
+            </div>
+            <input type="submit" value="Entrar">
+            <a href="#" class="recuperarSenha">Recuperar Acesso</a>
+        </div>
+        
+        <p>É Novo(a) por aqui? <span style="background-color:red; margin-right: 5px;"><a href="formulario.html" style="text-decoration: none; color: white; padding: 10px;">Cadastre-se</a></span>ou acesse através de:</p>
+        <div id="RedesSociais">
+           <a href="#"><img src="./Imagens/apple.png" class="logo"></a>
+           <a href="#"><img src="./Imagens/facebook.png" class="logo"></a>
+           <a href="#"><img src="./Imagens/google.png" class="logo"></a>
+        </div>
+    </section>
+</body>
+<script>
+    for (let i = 0; i < 10; i++) {
+      const snowflake = document.createElement("img");
+      snowflake.classList.add("snowflake");
+      snowflake.src = "floco.png"; 
+      snowflake.style.left = Math.random() * 100 + "%";
+      snowflake.style.animationDelay = Math.random() * 5 + "s";
+      snowflake.style.width = Math.random() * 20 + 10 + "px"; 
+      snowflake.style.opacity = Math.random() * 0.5 + 0.3; 
+      document.body.appendChild(snowflake);
+    }
+  </script>
+</html>

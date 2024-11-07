@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./formulario-style.css">
+ 
+</head>
+
+<body>
+    <div class="neblina"></div>
+  <section id="formulario">
+
+    <div id="formulario">
+        <fieldset>
+            <legend>Cadastro</legend>
+            
+<form action="#" method="post">
+    <div class="campo">
+        <!-- CAMPO 1-->
+        <input type="text" name="" id="" class="inputUser" required>
+        <label for="" class="labelInput">Nome Completo</label>
+    </div>
+    <div class="campo">
+        <!-- CAMPO 2-->
+        <input type="email" name="" id="" class="inputUser" required>
+        <label for="" class="labelInput">E-mail</label>
+    </div>
+    <div class="campo">
+        <!-- CAMPO 3-->
+        <input type="password" name="" id="" class="inputUser" required>
+        <label for="" class="labelInput">Senha</label>
+    </div>
+    <div class="campo">
+        <!-- CAMPO 4-->
+        <input type="tel" name="" id="" class="inputUser" required>
+        <label for="" class="labelInput">Telefone</label>
+    </div>
+    <div class="campo">
+        <!-- CAMPO 5-->
+        <input type="date" name=""  class="inputUser" required>
+        <label for="" class="date">Data de nascimento</label>
+    </div>
+    <div class="campo-genero">
+        <p style="color: white; margin-bottom: 15px; font-weight: bolder; font-size: 1.1em;">Gênero:</p>
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino" >Feminino</label>
+        <br>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+        <br>
+    
+        <input type="radio" id="outro" name="genero" value="outro" required>
+        <label for="outro">Não informar</label>
+        <br>
+        <input type="submit" value="Cadastrar" class="submit">
+</form>
+</div>
+
+</fieldset>
+    </div>
+  </section>
+</body>
+<script>
+    for (let i = 0; i < 10; i++) {
+      const snowflake = document.createElement("img");
+      snowflake.classList.add("snowflake");
+      snowflake.src = "floco.png"; 
+      snowflake.style.left = Math.random() * 100 + "%";
+      snowflake.style.animationDelay = Math.random() * 5 + "s";
+      snowflake.style.width = Math.random() * 20 + 10 + "px"; 
+      snowflake.style.opacity = Math.random() * 0.5 + 0.3; 
+      document.body.appendChild(snowflake);
+    }
+  </script>
+</html>
