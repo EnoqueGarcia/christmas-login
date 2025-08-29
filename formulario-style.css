@@ -10,7 +10,7 @@ src: url(./Great_Vibes/GreatVibes-Regular.ttf);
     font-family: 'Courier New', Courier, monospace;
 }
   html {
-    background: url(./Imagens/background.jpg);
+    background: url(./Imagens/background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,4 +173,5 @@ text-align: center;
 
 .submit:hover {
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.733);
+
 }
