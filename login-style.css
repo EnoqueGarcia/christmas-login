@@ -11,7 +11,7 @@
         }
 
         body {
-            background: url(./Imagens/background2.jpg);
+            background: url(./Imagens/background.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -224,3 +224,4 @@
 
   
 }
+
